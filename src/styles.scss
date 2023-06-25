@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000000;
+  cursor: crosshair;
+  font-family: 'Belanosima', sans-serif;
+  overflow-x: hidden;
+}
+canvas{
+  display:block;
+
+}
+
+.block-title{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 28, 28, 0.7);
+  border-radius: 8px;
+  padding: 8px;
+  width: 45%;
+
+
+  p{
+    color: #fff;
+    font-style: italic;
+  }
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Belanosima', sans-serif;
+  font-size: 4em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.wishes{
+  width: 45%;
+  margin: 0 auto;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  background: rgba(29, 28, 28, 0.7);
+  border-radius: 8px;
+  padding: 8px;
+  color: #fff;
+  font-style: italic;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/assets/fara.jpg");
+  background-size: cover;
+  background-position: 0% 0%;
+}
+
+@media only screen  and (max-width: 900px){
+  .wishes, .block-title{
+    width: 75%;
+  }
+}
+
+@media only screen  and (max-width: 750px){
+  .wishes, .block-title{
+    width: 85%;
+  }
+}
+
+
+@media only screen  and (max-width: 550px){
+  .wishes, .block-title{
+    width: 95%;
+  }
+
+  .block-title{
+    h1{
+      font-size: 3em;
+      font-weight: 700;
+    }
+  }
+
+  .wishes{
+    transform: translateY(-50%, -23%);
+  }
+
+}
+
+@media only screen  and (max-width: 400px){
+  .wishes, .block-title{
+    width: 95%;
+  }
+
+  .block-title{
+    h1{
+      font-size: 3em;
+      font-weight: 700;
+    }
+  }
+
+  .wishes{
+    transform: translateY(-50%, -25%);
+  }
+
+}
+
+
+@media only screen  and (max-width: 350px){
+  .wishes, .block-title{
+    width: 95%;
+  }
+
+  .block-title{
+    h1{
+      font-size: 2em;
+      font-weight: 700;
+    }
+  }
+
+  .wishes{
+    transform: translateY(-50%, -20%);
+  }
+
+}

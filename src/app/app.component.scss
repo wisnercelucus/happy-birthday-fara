@@ -1,0 +1,25 @@
+.footer{
+  text-align: right;
+  width: 100%;
+  padding: 12px;
+  margin-top: 8rem;
+  color: white;
+  font-style: italic;
+  background: #000000;
+  overflow: hidden;
+}
+
+@media only screen  and (max-width: 400px){
+  .footer{
+    margin-top: 11rem;
+  }
+}
+
+
+
+@media only screen  and (max-width: 350px){
+
+  .footer{
+    margin-top: 13rem;
+  }
+}
